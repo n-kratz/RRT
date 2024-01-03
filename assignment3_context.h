@@ -119,24 +119,3 @@ protected:
   robot_model::RobotModelConstPtr robotmodel;
 
 };
-
-/*
-class Node {
-public:
-    double q[6];
-    double p[6]; //parent node
-    vector<q[6]> children;
-    
-    Node(double _q[6]){
-        q = _q;
-    }
-    
-    parent(double _p[6]){
-        p = _p;
-    }
-    
-    children(double child[6]){
-        children.push_back(child)
-    }
-}
-*/
